@@ -25,4 +25,4 @@ for guessesTaken in range(1, 7):
 if guess == secretNumber:
     print 'Good job ' + name + '! You got it! You guessed the correct number! Number of guesses left: ' + str(guess_number) + '.'
 else:
-    print 'Nope. The number was ' + str(secretNumber)  # This prints when you've run out of guesses
+    print 'Nope. The number was ' + str(secretNumber) + '.'  # This prints when you've run out of guesses
